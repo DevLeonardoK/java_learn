@@ -1,4 +1,4 @@
-package Logica_Notas;
+package exercicios_primeira_parte.Logica_Notas;
 
 public interface logicaInterface {
     void calcularMedia();

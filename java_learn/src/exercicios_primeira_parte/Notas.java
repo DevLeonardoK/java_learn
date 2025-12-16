@@ -1,3 +1,5 @@
+package exercicios_primeira_parte;
+
 import java.util.Scanner;
 
 public class Notas {

@@ -1,4 +1,4 @@
-package Metodos;
+package exercicios_primeira_parte.Metodos;
 import java.util.Scanner;
 public class Numeros implements Matematica{
     public static void main(String[] args) {

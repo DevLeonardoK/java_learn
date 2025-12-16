@@ -1,3 +1,5 @@
+package exercicios_primeira_parte;
+
 public class Matematica {
     public static void main(String[] args){
         int numero1 = 15;

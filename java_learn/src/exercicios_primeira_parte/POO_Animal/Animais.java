@@ -1,4 +1,4 @@
-package POO_Animal;
+package exercicios_primeira_parte.POO_Animal;
 
 public class Animais {
     public static void main(String[] args) {
