@@ -1,6 +1,9 @@
 package exercicios_primeira_parte;
 
 public class Pessoa {
+    public Pessoa(String leonardo, int i) {
+    }
+
     public static void main(String[] args){
         PessoaHumana pessoa1 = new PessoaHumana("Leonardo", 19, 1.65, true);
         pessoa1.existir();
