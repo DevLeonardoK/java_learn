@@ -2,6 +2,7 @@ package java_pleno.exercicio_estrutura_2;
 import java.util.*;
 public class setMain {
     public static void main(String[] args) {
+        //Mantem ordem de inserção
         Set<String> setString = new LinkedHashSet<>();
         setString.add("Leonardo");
         setString.add("Elaine");
@@ -12,6 +13,7 @@ public class setMain {
         Collections.sort(setStringOrdenada);
         System.out.println(setStringOrdenada);
 
+        //Ordenação
         TreeSet<Integer> setInteger = new TreeSet<>();
         setInteger.add(1);
         setInteger.add(10);
