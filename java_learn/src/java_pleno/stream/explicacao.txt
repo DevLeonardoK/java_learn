@@ -1,0 +1,11 @@
+Realizar operacoes funcionais nas nossas collection / estrutura de dados
+filter, tranformação de um tipo para outro
+reduce - reduzir conjunto para menores
+realizar operações
+map - transformar o tipo de dados
+
+//apos o .stream é necessario refazer a saida para algum tipo
+
+caso queira transformar para alguma estrutura de dados alem de array e list, no final do codigo:
+.collect(Collectors.toSet());
+.collect(Collectors.toMap());

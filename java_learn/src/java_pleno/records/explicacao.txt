@@ -1,0 +1,8 @@
+Records: Uma nova forma de declarar uma classe
+Um record, depois de criado ele se torna imutavel
+Tem os metodos: .equal, .hashCode, . toString e getters
+
+//Record muito utilizado para DTO - Data Transfer Object
+
+Controller recebe requisicao http (dados) -> Salva no DTO (Pode ser classes comuns e/ou Records, ja que sao imutaveis)
+Pojos tambem

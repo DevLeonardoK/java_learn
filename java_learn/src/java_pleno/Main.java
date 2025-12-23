@@ -55,6 +55,13 @@ public class Main {
         System.out.println("Queue: " + queue.remove());
         System.out.println("Queue: " + queue.remove()); //A ideia igual do poll, porem lança uma exception quando retorna null
 
+        List lista = new ArrayList<>();
+        lista.add("Texto");
+
+        String nome = (String) lista.get(0);
+
+        //Pode ocorre essa falha
+        lista.add(10);
 
     }
 }

@@ -1,0 +1,17 @@
+Generics é um recurso que permite criar codigos fortes, tipados e reutilizaveis;
+Eles servem para que uma classe, interface e metodos aceitem tipos como parametro
+
+Exemplo, sem generic iria realizar dessa maneira
+
+List lista = new ArrayList<>();
+lista.add("Texto");
+
+String nome = (String) lista.get(0);
+
+//Pode ocorre essa falha
+lista.add(10);
+
+//Generics seriam basicamente, o tipo:
+List<Integer>
+List<String>
+List<Usuario>
