@@ -29,7 +29,7 @@ class Solution {
             acc |= nums[i];
             max[i] = acc;
         }
-
+//commit
         for (int r =0; r< nums.length; r++){
             count=0;
             contador =0;
